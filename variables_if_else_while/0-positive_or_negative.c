@@ -1,7 +1,7 @@
 #include <stdio.h> /* esto es inclusion de la biblioteca estandar */
 	int main()
 {	
-	int n; /* esta es la variable que le asignaremos el valor aleatorio */
+	int n = 0; /* esta es la variable que le asignaremos el valor aleatorio */
 
 		if (n > 0) 
 	{
