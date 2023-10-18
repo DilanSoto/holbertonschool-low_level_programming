@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* 1 last digit */
+/* main - Entry Point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
