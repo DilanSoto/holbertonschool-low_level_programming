@@ -1,19 +1,28 @@
-#include <stdio.h> /* esto es inclusion de la biblioteca estandar */
-	int main()
-{	
-	int n = 0; /* esta es la variable que le asignaremos el valor aleatorio */
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - Entry Point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int n;
 
-		if (n > 0) 
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
 	{
-		printf("%d is positivive/n", n); /* si "n" es mayor que 0 imprime que es positivo */
+		printf("%d is positive\n", n);
 	}
-		else if (n < 0) 
+	else if (n == 0)
 	{
-		printf("%d is negative/n", n); 
+		printf("%d is zero\n", n);
 	}
-		else 
+	else if (n < 0)
 	{
-		printf("%d is zero/n", n); /* si ninguna de las dos anteriores se cumple 'n' debe ser 0 */
-	} 
-return 0; /* indica que el programa termino con exito */
+		printf("%d is negative\n", n);
+	}
+	return (0);
 }
