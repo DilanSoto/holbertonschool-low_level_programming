@@ -10,11 +10,11 @@ char ds;
 
 	for (ds = 'a'; ds <= 'z'; ds++)
 	{
-		if (ds != 'q' && ds != 'e')
+	if (ds != 'q' && ds != 'e')
 		{
 		 putchar(ds);
 		}
 	}
 	putchar('\n');
-return(0);
+return (0);
 }
