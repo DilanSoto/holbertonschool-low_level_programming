@@ -1,20 +1,21 @@
 #include <stdio.h>
+
 /**
-* main - Entry Point
+ * main - Entry Point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char ds;
+    char ds;
 
-	for (ds = 'a'; ds <= 'z'; ds++)
-	{
-		if (ds != 'q' && ds != 'e')
-		{
-			 putchar(ds);
-		}
-	}
-	putchar('\n');
-return (0);
+    for (ds = 'a'; ds <= 'z'; ds++)
+    {
+        if (ds != 'q' && ds != 'e')
+        {
+            putchar(ds);
+        }
+    }
+    putchar('\n');
+    return (0);
 }
