@@ -4,14 +4,14 @@
 *
 *Return: Always 0 (success)
 */
-int main()
+int main(void)
 {
-char letras;
+	char letras;
 
-for (letras = 'a'; letras <= 'z'; letra++)
-{
-	putchar (letra);
-}
-	putchar (/n);
-return (o);
+	for (letras = 'a'; letras <= 'z'; letras++)
+		{
+		putchar (letras);
+		}
+		putchar ('\n');
+return (0);
 }
