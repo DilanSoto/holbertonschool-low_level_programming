@@ -4,14 +4,15 @@
 *
 *return: Always 0 (Success)
 */
-int main (void)
+int main(void)
 {
 	char letras;
-	for(letras = 'a'; letras <= 'z'; letras++)
+	
+	for (letras = 'a'; letras <= 'z'; letras++)
 	{
 	putchar(letras);
 	}
-	for(letras = 'A'; letras <= 'Z'; letras++)
+	for (letras = 'A'; letras <= 'Z'; letras++)
 	{
 	putchar(letras);
 	}
