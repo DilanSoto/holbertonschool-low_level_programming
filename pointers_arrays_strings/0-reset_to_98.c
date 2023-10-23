@@ -1,16 +1,10 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code 
- *
- * Return: Always 0.
+ * reset_to_98 - a function that takes a pointer a change the value.
+ * @n: holds the memory address.
+ * Return: void;
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	int ds;
-	int ds = 10;
-	*ds = 98;
-		printf("%i/n,*ds)
-	return (o);
+	*n = 98;
 }
