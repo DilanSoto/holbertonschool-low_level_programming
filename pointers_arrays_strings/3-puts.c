@@ -1,14 +1,17 @@
 #include <stdio.h>
+#include "main.h"
 /*
  * _puts -print a string followed by a new line .
  * str: the string to be printed
- */
+ * Return: void.
+*/
 void _puts(char *str)
 {
-	(*str != '\0')
+	int m;
+
+	 for(m = 0; str[m] != '\0'; m++)
 	{
-		putchar (*str);
-		str++;
+		_putchar (str[m]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
