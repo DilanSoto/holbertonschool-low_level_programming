@@ -5,7 +5,7 @@
  */
 void _puts(char *str)
 {
-	*str != '\o')
+	*str != '\0')
 	{
 		putchar (*str);
 		str++;
