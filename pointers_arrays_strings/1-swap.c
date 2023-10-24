@@ -5,6 +5,7 @@
  * @b: holds the memory address
  * Return: void
  */
+void swap_int(int *a, int *b);
 {
 	int tmp;
 
