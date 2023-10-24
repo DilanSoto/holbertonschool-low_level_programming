@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
-/*
- * _puts -print a string followed by a new line .
- * str: the string to be printed
+
+/**
+ * _puts - Prints a string followed by a new line.
+ * @str: The string to be printed.
  * Return: void.
-*/
+ */
 void _puts(char *str)
 {
 	int m;
@@ -13,5 +14,5 @@ void _puts(char *str)
 	{
 		_putchar(str[m]);
 	}
-		_putchar('\n');
+	_putchar('\n');
 }
