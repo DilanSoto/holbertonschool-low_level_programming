@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-/*
+/**
  * main - entry
  * @s - pointer
  * rev_string - reverse string
