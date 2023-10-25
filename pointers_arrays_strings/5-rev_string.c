@@ -3,8 +3,8 @@
 /*
  * main - entry
  * @s - pointer
+ * rev_string - reverse string
  * Return: - reverse
- * rev_string - reverse char
  */
 
 void rev_string(char *s)
