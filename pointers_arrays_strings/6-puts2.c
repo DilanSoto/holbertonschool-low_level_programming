@@ -3,7 +3,7 @@
 
 /**
  * puts2 - print character
- * *str - pointers
+ * str - pointers
  * Return: void
 */
 
