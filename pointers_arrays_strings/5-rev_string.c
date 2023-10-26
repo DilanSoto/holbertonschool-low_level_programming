@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <string.h>
-/**
- * main - entry
- * rev_string - reverse string
- * @s - pointer
- * Return: - reverse
- */
 
-void rev_string(char *s)
+/**
+ * rev_string - reverse string
+ * @s: pointer to the string to be reversed
+ * 
+ * Return: void
+ */
+ void rev_string(char *s)
 {
 	char tmp;
 	int start, finish, center;
