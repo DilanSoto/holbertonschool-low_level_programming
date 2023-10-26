@@ -2,8 +2,8 @@
 #include <string.h>
 /**
  * main - entry
- * @s - pointer
  * rev_string - reverse string
+ * @s - pointer
  * Return: - reverse
  */
 
