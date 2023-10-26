@@ -4,10 +4,10 @@
 /**
  * rev_string - reverse string
  * @s: pointer to the string to be reversed
- * 
  * Return: void
  */
- void rev_string(char *s)
+
+void rev_string(char *s)
 {
 	char tmp;
 	int start, finish, center;
