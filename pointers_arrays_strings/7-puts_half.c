@@ -3,7 +3,7 @@
 
 /**
  * puts2 - print character
- * @str - pointers
+ * @str: pointers
 */
 
 void puts_half(char *str)
