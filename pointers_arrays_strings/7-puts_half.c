@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * puts2 - print character
+ * puts_half - print character
  * @str: pointers
 */
 
