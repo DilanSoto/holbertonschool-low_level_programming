@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 echo "Entry filename"
 read filename
 touch $filename
