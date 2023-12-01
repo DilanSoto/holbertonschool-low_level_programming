@@ -9,16 +9,15 @@
  * Return: the number of nodes
  * */
 
-//prototipo
 size_t print_list(const list_t *h)
 {
-	size count =0;
+	size_t count =0;
 	
 	while (h != NULL)
 	{
 		if(h->str == NULL)
 		{
-			printf([0] (nil)\n");
+			printf("[0] (nil)\n");
 		}
 		else
 		{
@@ -29,4 +28,3 @@ size_t print_list(const list_t *h)
 	}
 	return count;
 }
-
