@@ -17,7 +17,7 @@ list_t *add_node(list_t **head, const char *str)
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 
 	/* Duplicate the string and store it in the new node */
@@ -25,7 +25,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (new_node->str == NULL)
 	{
 		free(new_node);
-		return NULL;
+		return (NULL);
 	}
 
 	/* Store the length of the string in the new node */
