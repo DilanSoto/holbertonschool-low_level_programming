@@ -12,8 +12,8 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node, *last;
-	new_node = malloc(sizeof(list_t));
 
+	new_node = malloc(sizeof(list_t));
 	/* Check if memory allocation failed */
 	if (new_node == NULL)
 		return (NULL);
@@ -23,7 +23,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	{
 		free(new_node);
 		return (NULL);
-    }
+	}
 
 	new_node->len = strlen(str); /* Set the length of the string */
 	new_node->next = NULL; /* The new node will be the last node */
@@ -31,7 +31,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	/* If the list is empty, set the new node as the head */
 	if (*head == NULL)
 	{
-	   	*head = new_node;
+		*head = new_node;
 	}
 	else
 	{
