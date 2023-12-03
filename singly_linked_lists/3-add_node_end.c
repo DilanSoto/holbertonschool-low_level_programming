@@ -18,15 +18,15 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (new_node == NULL)
 		return (NULL);
 
-	new_node->str = strdup(str); // Duplicate the string
-	if (new_node->str == NULL) // Check if strdup failed
+	new_node->str = strdup(str);
+	if (new_node->str == NULL);
 	{
 		free(new_node);
 		return (NULL);
 	}
 
-	new_node->len = strlen(str); // Set the length of the string
-	new_node->next = NULL; // The new node will be the last node
+	new_node->len = strlen(str);
+	new_node->next = NULL;
 
 	/* If the list is empty, set the new node as the head */
 	if (*head == NULL)
